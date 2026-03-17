@@ -1,0 +1,2676 @@
+[
+  {
+    "id": "pri_001",
+    "section": "Principes et valeurs de la République",
+    "question": "À quoi correspond la date du 14 juillet ?",
+    "options": {
+      "A": "La fête nationale française",
+      "B": "Le jour de l’élection présidentielle",
+      "C": "La fête de l’Europe",
+      "D": "La rentrée scolaire nationale"
+    },
+    "correctAnswer": "A",
+    "explanation": "Commémore la prise de la Bastille et la Fête de la Fédération.",
+    "draft": false
+  },
+  {
+    "id": "pri_002",
+    "section": "Principes et valeurs de la République",
+    "question": "Quel est l’un des symboles de la République française ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "pri_003",
+    "section": "Principes et valeurs de la République",
+    "question": "Le principe d’égalité signifie que :",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "pri_004",
+    "section": "Principes et valeurs de la République",
+    "question": "\"Liberté, égalité, fraternité\", c’est :",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "pri_005",
+    "section": "Principes et valeurs de la République",
+    "question": "A-t-on le droit d'insulter publiquement quelqu’un parce qu’il est différent (handicap, apparence physique, sexe…) ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "pri_006",
+    "section": "Principes et valeurs de la République",
+    "question": "Certains métiers peuvent-ils être réservés aux hommes ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "pri_007",
+    "section": "Principes et valeurs de la République",
+    "question": "De quand date la Constitution de la Ve République ?",
+    "options": {
+      "A": "1946",
+      "B": "1958",
+      "C": "1962",
+      "D": "1981"
+    },
+    "correctAnswer": "B",
+    "explanation": "La Constitution actuelle est entrée en vigueur en 1958.",
+    "draft": false
+  },
+  {
+    "id": "pri_008",
+    "section": "Principes et valeurs de la République",
+    "question": "Le régime de la France est :",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "pri_009",
+    "section": "Principes et valeurs de la République",
+    "question": "Lequel de ces symboles représente officiellement la République française ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "pri_010",
+    "section": "Principes et valeurs de la République",
+    "question": "Où peut-on voir la devise de la République ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "pri_011",
+    "section": "Principes et valeurs de la République",
+    "question": "Quels sont des symboles officiels de la République française ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "pri_012",
+    "section": "Principes et valeurs de la République",
+    "question": "Qu’est-ce que l’égalité ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "pri_013",
+    "section": "Principes et valeurs de la République",
+    "question": "Que signifie la liberté ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "pri_014",
+    "section": "Principes et valeurs de la République",
+    "question": "Que signifie le mot \"fraternité\" dans la devise française ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "pri_015",
+    "section": "Principes et valeurs de la République",
+    "question": "Quel animal est un symbole de la France ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "pri_016",
+    "section": "Principes et valeurs de la République",
+    "question": "Quel est l’un des rôles des associations ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "pri_017",
+    "section": "Principes et valeurs de la République",
+    "question": "Quel est le nom de l'hymne national ?",
+    "options": {
+      "A": "La Marseillaise",
+      "B": "Le Chant du départ",
+      "C": "Le Chant des partisans",
+      "D": "La Carmagnole"
+    },
+    "correctAnswer": "A",
+    "explanation": "C'est l'hymne officiel de la République.",
+    "draft": false
+  },
+  {
+    "id": "pri_018",
+    "section": "Principes et valeurs de la République",
+    "question": "Quel symbole de la République française est tricolore ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "pri_019",
+    "section": "Principes et valeurs de la République",
+    "question": "Quelle est la date de la fête nationale française ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "pri_020",
+    "section": "Principes et valeurs de la République",
+    "question": "Quelle est la devise de la République française ?",
+    "options": {
+      "A": "Travail, Famille, Patrie",
+      "B": "Liberté, Égalité, Fraternité",
+      "C": "Unité, Neutralité, Justice",
+      "D": "Droit, Ordre, Nation"
+    },
+    "correctAnswer": "B",
+    "explanation": "C'est la devise inscrite sur de nombreux bâtiments publics.",
+    "draft": false
+  },
+  {
+    "id": "pri_021",
+    "section": "Principes et valeurs de la République",
+    "question": "Quelle est la langue officielle de la République française ?",
+    "options": {
+      "A": "Le français",
+      "B": "L’anglais",
+      "C": "Le latin",
+      "D": "L’allemand"
+    },
+    "correctAnswer": "A",
+    "explanation": "L'article 2 de la Constitution précise que la langue est le français.",
+    "draft": false
+  },
+  {
+    "id": "pri_022",
+    "section": "Principes et valeurs de la République",
+    "question": "Quelle est la place de la langue française dans la République ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "pri_023",
+    "section": "Principes et valeurs de la République",
+    "question": "Quelle liberté permet à chacun d’exprimer ses idées ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "pri_024",
+    "section": "Principes et valeurs de la République",
+    "question": "Quelle proposition est correcte ? La liberté d'expression :",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "pri_025",
+    "section": "Principes et valeurs de la République",
+    "question": "Quelles sont les couleurs du drapeau français ?",
+    "options": {
+      "A": "Bleu, blanc, rouge",
+      "B": "Vert, blanc, rouge",
+      "C": "Bleu, jaune, rouge",
+      "D": "Noir, blanc, rouge"
+    },
+    "correctAnswer": "A",
+    "explanation": "Le drapeau national est tricolore.",
+    "draft": false
+  },
+  {
+    "id": "pri_026",
+    "section": "Principes et valeurs de la République",
+    "question": "Qu'est-ce que la Marseillaise ?",
+    "options": {
+      "A": "La devise officielle",
+      "B": "L’hymne national français",
+      "C": "Le drapeau officiel",
+      "D": "Le siège du Parlement"
+    },
+    "correctAnswer": "B",
+    "explanation": "La Marseillaise est un symbole officiel.",
+    "draft": false
+  },
+  {
+    "id": "pri_027",
+    "section": "Principes et valeurs de la République",
+    "question": "Qu'est ce qui est traditionnellement organisé sur les Champs Élysées le 14 juillet pour célébrer la fête nationale ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "pri_028",
+    "section": "Principes et valeurs de la République",
+    "question": "Qui est Marianne ?",
+    "options": {
+      "A": "Une ancienne reine",
+      "B": "La figure symbolique de la République",
+      "C": "La présidente du Sénat",
+      "D": "La capitale de la France"
+    },
+    "correctAnswer": "B",
+    "explanation": "Marianne représente la République française.",
+    "draft": false
+  },
+  {
+    "id": "pri_029",
+    "section": "Principes et valeurs de la République",
+    "question": "Une personne peut-elle changer librement de religion ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "pri_030",
+    "section": "Principes et valeurs de la République",
+    "question": "\"La France est une République indivisible, ..., démocratique et sociale\". Complétez cette phrase extraite de l'article 1er de la Constitution :",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "pri_031",
+    "section": "Principes et valeurs de la République",
+    "question": "En quelle année la loi de séparation des Églises et de l'État a-t-elle été votée ?",
+    "options": {
+      "A": "1789",
+      "B": "1905",
+      "C": "1946",
+      "D": "1958"
+    },
+    "correctAnswer": "B",
+    "explanation": "La loi de 1905 fonde la laïcité institutionnelle.",
+    "draft": false
+  },
+  {
+    "id": "pri_032",
+    "section": "Principes et valeurs de la République",
+    "question": "Que permet le principe de laïcité ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "pri_033",
+    "section": "Principes et valeurs de la République",
+    "question": "Quel droit est garanti par la laïcité ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "pri_034",
+    "section": "Principes et valeurs de la République",
+    "question": "Pourquoi le principe de laïcité doit-il être respecté à l'école ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "pri_035",
+    "section": "Principes et valeurs de la République",
+    "question": "Qu'est-ce que la laïcité ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "pri_036",
+    "section": "Principes et valeurs de la République",
+    "question": "Un enfant peut-il refuser d’aller à l’école pour une raison religieuse ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "pri_037",
+    "section": "Principes et valeurs de la République",
+    "question": "Une personne a-t-elle le droit de ne pas croire en une religion ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_001",
+    "section": "Système institutionnel et politique",
+    "question": "Qui nomme le Premier ministre ?",
+    "options": {
+      "A": "Le président de la République",
+      "B": "Le président du Sénat",
+      "C": "Le Conseil constitutionnel",
+      "D": "Les préfets"
+    },
+    "correctAnswer": "A",
+    "explanation": "Le Premier ministre est nommé par le président.",
+    "draft": false
+  },
+  {
+    "id": "sys_002",
+    "section": "Système institutionnel et politique",
+    "question": "Le Parlement est composé :",
+    "options": {
+      "A": "Des maires et préfets",
+      "B": "De l’Assemblée nationale et du Sénat",
+      "C": "Du gouvernement et des juges",
+      "D": "Des syndicats et partis"
+    },
+    "correctAnswer": "B",
+    "explanation": "Les deux chambres forment le Parlement.",
+    "draft": false
+  },
+  {
+    "id": "sys_003",
+    "section": "Système institutionnel et politique",
+    "question": "Qu'est-ce que le pouvoir exécutif ? Le pouvoir :",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_004",
+    "section": "Système institutionnel et politique",
+    "question": "Les dirigeants sont élus par les citoyens dans :",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_005",
+    "section": "Système institutionnel et politique",
+    "question": "A-t-on le droit de ne pas respecter une loi ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_006",
+    "section": "Système institutionnel et politique",
+    "question": "Qui doit respecter la loi ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_007",
+    "section": "Système institutionnel et politique",
+    "question": "Quel est le rôle de l'autorité judiciaire ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_008",
+    "section": "Système institutionnel et politique",
+    "question": "Quel pouvoir détient un juge ? Le pouvoir :",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_009",
+    "section": "Système institutionnel et politique",
+    "question": "L'autorité judiciaire est exercée par :",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_010",
+    "section": "Système institutionnel et politique",
+    "question": "Que se passe-t-il si un ministre ne respecte pas la loi ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_011",
+    "section": "Système institutionnel et politique",
+    "question": "Qui est élu lors des élections législatives ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_012",
+    "section": "Système institutionnel et politique",
+    "question": "Combien de députés composent l’Assemblée nationale ?",
+    "options": {
+      "A": "348",
+      "B": "500",
+      "C": "577",
+      "D": "650"
+    },
+    "correctAnswer": "C",
+    "explanation": "L'Assemblée nationale compte 577 députés.",
+    "draft": false
+  },
+  {
+    "id": "sys_013",
+    "section": "Système institutionnel et politique",
+    "question": "Quand sont élus les sénateurs ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_014",
+    "section": "Système institutionnel et politique",
+    "question": "Qui est élu lors des élections municipales ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_015",
+    "section": "Système institutionnel et politique",
+    "question": "Qui est élu lors des élections présidentielles ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_016",
+    "section": "Système institutionnel et politique",
+    "question": "À partir de quel âge a-t-on le droit de voter ?",
+    "options": {
+      "A": "16 ans",
+      "B": "17 ans",
+      "C": "18 ans",
+      "D": "21 ans"
+    },
+    "correctAnswer": "C",
+    "explanation": "Le droit de vote s'exerce à la majorité civile.",
+    "draft": false
+  },
+  {
+    "id": "sys_017",
+    "section": "Système institutionnel et politique",
+    "question": "Pour combien de temps est élu le président de la République française ?",
+    "options": {
+      "A": "4 ans",
+      "B": "5 ans",
+      "C": "6 ans",
+      "D": "7 ans"
+    },
+    "correctAnswer": "B",
+    "explanation": "Le mandat présidentiel est un quinquennat.",
+    "draft": false
+  },
+  {
+    "id": "sys_018",
+    "section": "Système institutionnel et politique",
+    "question": "Pour combien de temps sont élus les députés ?",
+    "options": {
+      "A": "4 ans",
+      "B": "5 ans",
+      "C": "6 ans",
+      "D": "7 ans"
+    },
+    "correctAnswer": "B",
+    "explanation": "Le mandat législatif est de 5 ans.",
+    "draft": false
+  },
+  {
+    "id": "sys_019",
+    "section": "Système institutionnel et politique",
+    "question": "Pour combien de temps sont élus les sénateurs ?",
+    "options": {
+      "A": "4 ans",
+      "B": "5 ans",
+      "C": "6 ans",
+      "D": "9 ans"
+    },
+    "correctAnswer": "C",
+    "explanation": "Les sénateurs sont élus pour 6 ans.",
+    "draft": false
+  },
+  {
+    "id": "sys_020",
+    "section": "Système institutionnel et politique",
+    "question": "Qui possède le pouvoir exécutif ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_021",
+    "section": "Système institutionnel et politique",
+    "question": "Quelle condition est nécessaire pour voter aux élections ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_022",
+    "section": "Système institutionnel et politique",
+    "question": "Qui peut voter aux élections en France ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_023",
+    "section": "Système institutionnel et politique",
+    "question": "Que signifie « suffrage universel » ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_024",
+    "section": "Système institutionnel et politique",
+    "question": "Concernant les partis politiques, quelle proposition est correcte ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_025",
+    "section": "Système institutionnel et politique",
+    "question": "Quel est le rôle des députés ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_026",
+    "section": "Système institutionnel et politique",
+    "question": "La séparation des pouvoirs est un principe fondamental. Quels sont les trois pouvoirs concernés ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_027",
+    "section": "Système institutionnel et politique",
+    "question": "Qui possède le pouvoir législatif ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_028",
+    "section": "Système institutionnel et politique",
+    "question": "Qui sanctionne l'auteur d'un vol ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_029",
+    "section": "Système institutionnel et politique",
+    "question": "Qui élit les députés ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_030",
+    "section": "Système institutionnel et politique",
+    "question": "Qui vote les lois ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_031",
+    "section": "Système institutionnel et politique",
+    "question": "Qui réside au palais de l'Élysée ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_032",
+    "section": "Système institutionnel et politique",
+    "question": "Combien y a-t-il de départements en France ?",
+    "options": {
+      "A": "95",
+      "B": "101",
+      "C": "105",
+      "D": "110"
+    },
+    "correctAnswer": "B",
+    "explanation": "On compte 96 en métropole et 5 outre-mer.",
+    "draft": false
+  },
+  {
+    "id": "sys_033",
+    "section": "Système institutionnel et politique",
+    "question": "Qui représente l'État dans un département ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_034",
+    "section": "Système institutionnel et politique",
+    "question": "Qui dirige la commune ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_035",
+    "section": "Système institutionnel et politique",
+    "question": "Est-ce que le président de la République a tous les pouvoirs ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_036",
+    "section": "Système institutionnel et politique",
+    "question": "Qui est le préfet ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_037",
+    "section": "Système institutionnel et politique",
+    "question": "Quel est le rôle du Parlement ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_038",
+    "section": "Système institutionnel et politique",
+    "question": "Quel est le régime politique de la France aujourd'hui ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_039",
+    "section": "Système institutionnel et politique",
+    "question": "Combien d'États font partie de l'Union européenne au 1er janvier 2025 ?",
+    "options": {
+      "A": "25",
+      "B": "26",
+      "C": "27",
+      "D": "28"
+    },
+    "correctAnswer": "C",
+    "explanation": "L'Union européenne compte 27 États membres.",
+    "draft": false
+  },
+  {
+    "id": "sys_040",
+    "section": "Système institutionnel et politique",
+    "question": "Quel État n'est pas membre de l'Union européenne ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_041",
+    "section": "Système institutionnel et politique",
+    "question": "Quelle condition est nécessaire pour voter aux élections européennes ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_042",
+    "section": "Système institutionnel et politique",
+    "question": "À quelle fréquence les élections européennes sont-elles organisées ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_043",
+    "section": "Système institutionnel et politique",
+    "question": "Quel pays est un pays fondateur de l'Union européenne ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_044",
+    "section": "Système institutionnel et politique",
+    "question": "Quelle est la monnaie utilisée en France ?",
+    "options": {
+      "A": "Le franc",
+      "B": "Le dollar",
+      "C": "L’euro",
+      "D": "La livre"
+    },
+    "correctAnswer": "C",
+    "explanation": "L'euro est la monnaie officielle en France.",
+    "draft": false
+  },
+  {
+    "id": "sys_045",
+    "section": "Système institutionnel et politique",
+    "question": "Qui élit les députés européens ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "sys_046",
+    "section": "Système institutionnel et politique",
+    "question": "Quand célèbre-t-on la journée de l'Europe ?",
+    "options": {
+      "A": "Le 1er mai",
+      "B": "Le 8 mai",
+      "C": "Le 9 mai",
+      "D": "Le 14 juillet"
+    },
+    "correctAnswer": "C",
+    "explanation": "Le 9 mai commémore la déclaration Schuman.",
+    "draft": false
+  },
+  {
+    "id": "dro_001",
+    "section": "Droits et devoirs",
+    "question": "Comment s’appelle la Constitution actuelle de la France ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "dro_002",
+    "section": "Droits et devoirs",
+    "question": "Comment s'appelle le texte qui énonce les droits et devoirs des personnes résidant en France ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "dro_003",
+    "section": "Droits et devoirs",
+    "question": "Concernant les droits individuels, quelle proposition est correcte ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "dro_004",
+    "section": "Droits et devoirs",
+    "question": "De quelle année date la Déclaration des droits de l’homme et du citoyen ?",
+    "options": {
+      "A": "1776",
+      "B": "1789",
+      "C": "1799",
+      "D": "1815"
+    },
+    "correctAnswer": "B",
+    "explanation": "La DDHC a été adoptée en 1789.",
+    "draft": false
+  },
+  {
+    "id": "dro_005",
+    "section": "Droits et devoirs",
+    "question": "Lequel de ces droits est un droit fondamental ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "dro_006",
+    "section": "Droits et devoirs",
+    "question": "Parmi ces textes, lequel garantit les droits et libertés en France ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "dro_007",
+    "section": "Droits et devoirs",
+    "question": "Qu’est-ce que la liberté d’expression ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "dro_008",
+    "section": "Droits et devoirs",
+    "question": "Quel droit permet à une personne de se défendre devant la justice ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "dro_009",
+    "section": "Droits et devoirs",
+    "question": "Quel est le texte fondateur établissant en France les droits et les devoirs de chaque citoyen ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "dro_010",
+    "section": "Droits et devoirs",
+    "question": "Quel texte a été adopté pendant la Révolution française ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "dro_011",
+    "section": "Droits et devoirs",
+    "question": "Quelle liberté permet à une personne de ne pas avoir de religion ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "dro_012",
+    "section": "Droits et devoirs",
+    "question": "Une femme peut avorter :",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "dro_013",
+    "section": "Droits et devoirs",
+    "question": "Est-il toujours possible de divorcer ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "dro_014",
+    "section": "Droits et devoirs",
+    "question": "La peine de mort est :",
+    "options": {
+      "A": "Toujours appliquée",
+      "B": "Abolie",
+      "C": "Réservée aux crimes graves",
+      "D": "Décidée par référendum"
+    },
+    "correctAnswer": "B",
+    "explanation": "La peine de mort est abolie depuis 1981.",
+    "draft": false
+  },
+  {
+    "id": "dro_015",
+    "section": "Droits et devoirs",
+    "question": "Concernant les limites aux libertés individuelles, quelle proposition est correcte ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "dro_016",
+    "section": "Droits et devoirs",
+    "question": "En France, est-ce légal d'être marié à plusieurs personnes en même temps ?",
+    "options": {
+      "A": "Oui, sans condition",
+      "B": "Oui, avec autorisation",
+      "C": "Non, c’est interdit",
+      "D": "Seulement à l’étranger"
+    },
+    "correctAnswer": "C",
+    "explanation": "La polygamie est interdite en droit français.",
+    "draft": false
+  },
+  {
+    "id": "dro_017",
+    "section": "Droits et devoirs",
+    "question": "Faut-il réduire ses déchets ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "dro_018",
+    "section": "Droits et devoirs",
+    "question": "Jeter une bouteille dans la rue est :",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "dro_019",
+    "section": "Droits et devoirs",
+    "question": "Pourquoi les libertés individuelles peuvent-elles être limitées ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "dro_020",
+    "section": "Droits et devoirs",
+    "question": "Que doit faire une personne en cas d’accident ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "dro_021",
+    "section": "Droits et devoirs",
+    "question": "Que permet la citoyenneté française ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "dro_022",
+    "section": "Droits et devoirs",
+    "question": "Que risque une personne qui ne respecte pas la loi ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "dro_023",
+    "section": "Droits et devoirs",
+    "question": "Quel est le rôle de la gendarmerie ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "dro_024",
+    "section": "Droits et devoirs",
+    "question": "Quel est le rôle de la police ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "dro_025",
+    "section": "Droits et devoirs",
+    "question": "Qu'est-ce qu'une infraction ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "dro_026",
+    "section": "Droits et devoirs",
+    "question": "Comment peut-on réduire ses déchets ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "dro_027",
+    "section": "Droits et devoirs",
+    "question": "Déposer une machine à laver cassée sur le trottoir est :",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "dro_028",
+    "section": "Droits et devoirs",
+    "question": "En quoi consiste la traite des êtres humains ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "dro_029",
+    "section": "Droits et devoirs",
+    "question": "Que doit faire une victime de violences ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "dro_030",
+    "section": "Droits et devoirs",
+    "question": "Quelle est l'infraction la plus grave ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_001",
+    "section": "Histoire géographie et culture",
+    "question": "En quelle année a débuté la Révolution française ?",
+    "options": {
+      "A": "1776",
+      "B": "1789",
+      "C": "1799",
+      "D": "1815"
+    },
+    "correctAnswer": "B",
+    "explanation": "La Révolution française commence en 1789.",
+    "draft": false
+  },
+  {
+    "id": "his_002",
+    "section": "Histoire géographie et culture",
+    "question": "Qui était Napoléon Ier ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_003",
+    "section": "Histoire géographie et culture",
+    "question": "Lequel de ces personnages historiques est français ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_004",
+    "section": "Histoire géographie et culture",
+    "question": "Dans quelle République est-on aujourd'hui ?",
+    "options": {
+      "A": "La IIIe République",
+      "B": "La IVe République",
+      "C": "La Ve République",
+      "D": "La VIe République"
+    },
+    "correctAnswer": "C",
+    "explanation": "La France est actuellement sous la Ve République.",
+    "draft": false
+  },
+  {
+    "id": "his_005",
+    "section": "Histoire géographie et culture",
+    "question": "Qu'est-ce que la Shoah ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_006",
+    "section": "Histoire géographie et culture",
+    "question": "Quel pays ou région du monde a été colonisé par la France ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_007",
+    "section": "Histoire géographie et culture",
+    "question": "Qui a rendu l’école gratuite, laïque et obligatoire ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_008",
+    "section": "Histoire géographie et culture",
+    "question": "Quand a eu lieu la Seconde Guerre mondiale ?",
+    "options": {
+      "A": "1914-1918",
+      "B": "1939-1945",
+      "C": "1947-1953",
+      "D": "1954-1962"
+    },
+    "correctAnswer": "B",
+    "explanation": "Cette guerre mondiale se déroule de 1939 à 1945.",
+    "draft": false
+  },
+  {
+    "id": "his_009",
+    "section": "Histoire géographie et culture",
+    "question": "Quand a eu lieu la Première Guerre mondiale ?",
+    "options": {
+      "A": "1914-1918",
+      "B": "1939-1945",
+      "C": "1870-1871",
+      "D": "1968-1975"
+    },
+    "correctAnswer": "A",
+    "explanation": "Cette guerre mondiale se déroule de 1914 à 1918.",
+    "draft": false
+  },
+  {
+    "id": "his_010",
+    "section": "Histoire géographie et culture",
+    "question": "En quelle année a été créée la Communauté Économique Européenne (CEE) ?",
+    "options": {
+      "A": "1945",
+      "B": "1951",
+      "C": "1957",
+      "D": "1992"
+    },
+    "correctAnswer": "C",
+    "explanation": "La CEE naît avec le traité de Rome de 1957.",
+    "draft": false
+  },
+  {
+    "id": "his_011",
+    "section": "Histoire géographie et culture",
+    "question": "Le 11 novembre est un jour férié. À quoi correspond cette date ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_012",
+    "section": "Histoire géographie et culture",
+    "question": "Qui a été le premier Président élu sous la Ve République ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_013",
+    "section": "Histoire géographie et culture",
+    "question": "En quelle année l'esclavage a-t-il été aboli définitivement en France ?",
+    "options": {
+      "A": "1794",
+      "B": "1815",
+      "C": "1848",
+      "D": "1905"
+    },
+    "correctAnswer": "C",
+    "explanation": "L'abolition définitive date du décret de 1848.",
+    "draft": false
+  },
+  {
+    "id": "his_014",
+    "section": "Histoire géographie et culture",
+    "question": "Depuis quelle année l'école publique est-elle gratuite ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_015",
+    "section": "Histoire géographie et culture",
+    "question": "Combien y a-t-il eu de républiques en France ?",
+    "options": {
+      "A": "Trois",
+      "B": "Quatre",
+      "C": "Cinq",
+      "D": "Six"
+    },
+    "correctAnswer": "C",
+    "explanation": "La France a connu cinq Républiques.",
+    "draft": false
+  },
+  {
+    "id": "his_016",
+    "section": "Histoire géographie et culture",
+    "question": "Qui était le roi de France au moment de la Révolution française ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_017",
+    "section": "Histoire géographie et culture",
+    "question": "Qui a fondé la Ve République ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_018",
+    "section": "Histoire géographie et culture",
+    "question": "Que célèbre-t-on le 14 juillet ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_019",
+    "section": "Histoire géographie et culture",
+    "question": "Quelle guerre a eu lieu entre 1914 et 1918 ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_020",
+    "section": "Histoire géographie et culture",
+    "question": "Pourquoi l’année 1958 est importante pour la France ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_021",
+    "section": "Histoire géographie et culture",
+    "question": "Quel fleuve coule en France ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_022",
+    "section": "Histoire géographie et culture",
+    "question": "Quelle ville est française ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_023",
+    "section": "Histoire géographie et culture",
+    "question": "Quel océan borde la côte ouest française ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_024",
+    "section": "Histoire géographie et culture",
+    "question": "Qu'est-ce que Paris ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_025",
+    "section": "Histoire géographie et culture",
+    "question": "Quelle est la capitale de la France ?",
+    "options": {
+      "A": "Lyon",
+      "B": "Paris",
+      "C": "Marseille",
+      "D": "Strasbourg"
+    },
+    "correctAnswer": "B",
+    "explanation": "Paris est la capitale politique et administrative.",
+    "draft": false
+  },
+  {
+    "id": "his_026",
+    "section": "Histoire géographie et culture",
+    "question": "Sur quel continent se situe la France métropolitaine ?",
+    "options": {
+      "A": "Afrique",
+      "B": "Europe",
+      "C": "Asie",
+      "D": "Amérique"
+    },
+    "correctAnswer": "B",
+    "explanation": "La France métropolitaine se situe en Europe.",
+    "draft": false
+  },
+  {
+    "id": "his_027",
+    "section": "Histoire géographie et culture",
+    "question": "Quelle île est un département d'outre-mer français ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_028",
+    "section": "Histoire géographie et culture",
+    "question": "Combien y a-t-il de régions en France métropolitaine ?",
+    "options": {
+      "A": "12",
+      "B": "13",
+      "C": "18",
+      "D": "22"
+    },
+    "correctAnswer": "B",
+    "explanation": "Depuis la réforme territoriale, il y en a 13.",
+    "draft": false
+  },
+  {
+    "id": "his_029",
+    "section": "Histoire géographie et culture",
+    "question": "Quelle ville est un grand port maritime ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_030",
+    "section": "Histoire géographie et culture",
+    "question": "Quelle est la mer au sud de la France métropolitaine ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_031",
+    "section": "Histoire géographie et culture",
+    "question": "Quelle ville est située au bord de la mer Méditerranée ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_032",
+    "section": "Histoire géographie et culture",
+    "question": "Où se situe la Corse ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_033",
+    "section": "Histoire géographie et culture",
+    "question": "Quelle chaîne de montagnes est située entre la France et l'Italie ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_034",
+    "section": "Histoire géographie et culture",
+    "question": "Qui était Molière ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_035",
+    "section": "Histoire géographie et culture",
+    "question": "Qui était Charles Baudelaire ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_036",
+    "section": "Histoire géographie et culture",
+    "question": "Qui était George Sand ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_037",
+    "section": "Histoire géographie et culture",
+    "question": "Qui était Simone de Beauvoir ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_038",
+    "section": "Histoire géographie et culture",
+    "question": "Qui était Albert Camus ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_039",
+    "section": "Histoire géographie et culture",
+    "question": "Qui était Paul Cézanne ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_040",
+    "section": "Histoire géographie et culture",
+    "question": "Qui était Marc Chagall ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_041",
+    "section": "Histoire géographie et culture",
+    "question": "Qui était Joséphine Baker ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_042",
+    "section": "Histoire géographie et culture",
+    "question": "Qui était une chanteuse française célèbre ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_043",
+    "section": "Histoire géographie et culture",
+    "question": "Qu'est-ce que le Louvre ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_044",
+    "section": "Histoire géographie et culture",
+    "question": "Qui était Jean de la Fontaine ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_045",
+    "section": "Histoire géographie et culture",
+    "question": "Quel écrivain est français ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_046",
+    "section": "Histoire géographie et culture",
+    "question": "Dans quelle ville se trouve la tour Eiffel ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "his_047",
+    "section": "Histoire géographie et culture",
+    "question": "Quand célèbre-t-on Noël ?",
+    "options": {
+      "A": "Le 1er janvier",
+      "B": "Le 14 juillet",
+      "C": "Le 25 décembre",
+      "D": "Le 31 décembre"
+    },
+    "correctAnswer": "C",
+    "explanation": "Noël est célébré le 25 décembre.",
+    "draft": false
+  },
+  {
+    "id": "viv_001",
+    "section": "Vivre dans la société française",
+    "question": "Quel numéro d'urgence permet d'appeler le SAMU ?",
+    "options": {
+      "A": "15",
+      "B": "17",
+      "C": "18",
+      "D": "112"
+    },
+    "correctAnswer": "A",
+    "explanation": "Le 15 permet de joindre le SAMU.",
+    "draft": false
+  },
+  {
+    "id": "viv_002",
+    "section": "Vivre dans la société française",
+    "question": "Quel numéro d'urgence permet d'appeler les pompiers ?",
+    "options": {
+      "A": "15",
+      "B": "17",
+      "C": "18",
+      "D": "114"
+    },
+    "correctAnswer": "C",
+    "explanation": "Le 18 permet de joindre les pompiers.",
+    "draft": false
+  },
+  {
+    "id": "viv_003",
+    "section": "Vivre dans la société française",
+    "question": "Après avoir obtenu le permis de conduire, que faut-il faire pour pouvoir conduire sa voiture ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "viv_004",
+    "section": "Vivre dans la société française",
+    "question": "À quelles conditions un mariage est-il reconnu juridiquement ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "viv_005",
+    "section": "Vivre dans la société française",
+    "question": "Quand faut-il déclarer son enfant au service d'état civil de la mairie ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "viv_006",
+    "section": "Vivre dans la société française",
+    "question": "Le travail non déclaré est :",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "viv_007",
+    "section": "Vivre dans la société française",
+    "question": "Que doit faire un employeur pour fixer un salaire ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "viv_008",
+    "section": "Vivre dans la société française",
+    "question": "Qu'est-ce que le SMIC ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "viv_009",
+    "section": "Vivre dans la société française",
+    "question": "Quelle est la première démarche à réaliser pour chercher un emploi ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "viv_010",
+    "section": "Vivre dans la société française",
+    "question": "Quelle est la durée légale du temps de travail par semaine ?",
+    "options": {
+      "A": "32 heures",
+      "B": "35 heures",
+      "C": "39 heures",
+      "D": "40 heures"
+    },
+    "correctAnswer": "B",
+    "explanation": "La durée légale est fixée à 35 heures.",
+    "draft": false
+  },
+  {
+    "id": "viv_011",
+    "section": "Vivre dans la société française",
+    "question": "Qui est aidé par France Travail ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "viv_012",
+    "section": "Vivre dans la société française",
+    "question": "Une personne étrangère en situation régulière peut créer son entreprise :",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "viv_013",
+    "section": "Vivre dans la société française",
+    "question": "Une femme peut-elle créer son entreprise ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "viv_014",
+    "section": "Vivre dans la société française",
+    "question": "À partir de quel âge un mineur peut-il travailler ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "viv_015",
+    "section": "Vivre dans la société française",
+    "question": "Auprès de quel organisme faut-il demander le remboursement des frais de santé ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "viv_016",
+    "section": "Vivre dans la société française",
+    "question": "Qu’est-ce qu’un numéro d’urgence ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "viv_017",
+    "section": "Vivre dans la société française",
+    "question": "Concernant l'accès aux soins, quelle proposition est correcte ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "viv_018",
+    "section": "Vivre dans la société française",
+    "question": "En cas de problème de santé non urgent, à qui faut-il s’adresser en premier ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "viv_019",
+    "section": "Vivre dans la société française",
+    "question": "Quel est le rôle du médecin traitant ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "viv_020",
+    "section": "Vivre dans la société française",
+    "question": "Dans quelles situations doit-on se rendre aux urgences de l'hôpital ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "viv_021",
+    "section": "Vivre dans la société française",
+    "question": "Quel est l’objectif des vaccinations obligatoires ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "viv_022",
+    "section": "Vivre dans la société française",
+    "question": "À quoi sert la carte Vitale ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "viv_023",
+    "section": "Vivre dans la société française",
+    "question": "À quoi sert une mutuelle santé ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "viv_024",
+    "section": "Vivre dans la société française",
+    "question": "Jusqu'à quel âge l'école est-elle obligatoire ?",
+    "options": {
+      "A": "14 ans",
+      "B": "16 ans",
+      "C": "17 ans",
+      "D": "18 ans"
+    },
+    "correctAnswer": "B",
+    "explanation": "L'instruction est obligatoire de 3 à 16 ans.",
+    "draft": false
+  },
+  {
+    "id": "viv_025",
+    "section": "Vivre dans la société française",
+    "question": "L'autorité parentale prévoit l'obligation :",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "viv_026",
+    "section": "Vivre dans la société française",
+    "question": "Pour qui l'école est-elle obligatoire ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "viv_027",
+    "section": "Vivre dans la société française",
+    "question": "Quel diplôme obtient-on à la fin du lycée ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "viv_028",
+    "section": "Vivre dans la société française",
+    "question": "Dans quels établissements scolaires vont les élèves après l'école élémentaire ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "viv_029",
+    "section": "Vivre dans la société française",
+    "question": "Pour qui l'école est elle obligatoire ?",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "viv_030",
+    "section": "Vivre dans la société française",
+    "question": "Un enfant inscrit à l'école :",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  },
+  {
+    "id": "viv_031",
+    "section": "Vivre dans la société française",
+    "question": "Les enfants qui ne parlent pas français :",
+    "options": {
+      "A": "Réponse à valider (draft)",
+      "B": "Une réponse partiellement exacte",
+      "C": "Une proposition inexacte",
+      "D": "Aucune de ces réponses"
+    },
+    "correctAnswer": "A",
+    "explanation": "Question conservée en brouillon en attendant validation officielle.",
+    "draft": true
+  }
+]
