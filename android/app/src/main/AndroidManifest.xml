@@ -3,6 +3,9 @@
         android:label="Examen Civique FR"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6481673949788169~1346916462" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

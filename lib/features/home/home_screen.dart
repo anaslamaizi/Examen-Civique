@@ -2,11 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../../app/app_state.dart';
+import '../../data/question_metadata.dart';
 import '../../features/mistakes/mistakes_screen.dart';
 import '../../features/quiz/quiz_screen.dart';
 import '../../features/revision/revision_screen.dart';
 import '../../features/theme_selection/theme_selection_screen.dart';
 import '../../models/quiz_models.dart';
+import '../../widgets/ad_banner_widget.dart';
 
 const _appLogoAsset = 'assets/icon.png';
 
@@ -50,7 +52,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       body: SafeArea(
         child: SingleChildScrollView(
-          padding: const EdgeInsets.fromLTRB(20, 12, 20, 28),
+          padding: const EdgeInsets.fromLTRB(20, 12, 20, 36),
           child: AnimatedOpacity(
             duration: const Duration(milliseconds: 500),
             curve: Curves.easeOut,
@@ -84,16 +86,20 @@ class _HomeScreenState extends State<HomeScreen> {
                     tint: theme.colorScheme.primary,
                     onPressed: () => Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (_) => const ThemeSelectionScreen()),
+                      MaterialPageRoute(
+                          builder: (_) => const ThemeSelectionScreen()),
                     ),
                   ),
                   const SizedBox(height: 12),
                   _SecondaryActionButton(
                     label: 'Test complet',
                     icon: Icons.fact_check_rounded,
+                    trailing:
+                        const _CountPill(label: '$fullQuizQuestionCount Q'),
                     tint: const Color(0xFF0F766E),
                     onPressed: () {
-                      state.startQuiz(mode: QuizMode.finalCorrection, full: true);
+                      state.startQuiz(
+                          mode: QuizMode.finalCorrection, full: true);
                       Navigator.push(
                         context,
                         MaterialPageRoute(builder: (_) => const QuizScreen()),
@@ -123,7 +129,8 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   const SizedBox(height: 18),
                   Container(
-                    padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 14, vertical: 12),
                     decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(20),
@@ -153,6 +160,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ),
       ),
+      bottomNavigationBar: const AdBannerWidget(),
     );
   }
 }
@@ -315,8 +323,14 @@ class _InfoCard extends StatelessWidget {
                 iconColor: Color(0xFF334155),
               ),
               const _InfoBadge(
+                icon: Icons.fact_check_rounded,
+                label: 'Test complet : 40 questions',
+                color: Color(0xFFE6FFFB),
+                iconColor: Color(0xFF0F766E),
+              ),
+              const _InfoBadge(
                 icon: Icons.bolt_rounded,
-                label: 'Correction instantanée ou finale',
+                label: 'Correction après chaque réponse',
                 color: Color(0xFFFFE9E7),
                 iconColor: Color(0xFFDC2626),
               ),
@@ -379,7 +393,8 @@ class _SecondaryActionButton extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
           side: BorderSide(color: tint.withValues(alpha: 0.18)),
           backgroundColor: Colors.white,
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(22)),
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(22)),
         ),
         child: Row(
           children: [
@@ -450,6 +465,31 @@ class _InfoBadge extends StatelessWidget {
             ),
           ),
         ],
+      ),
+    );
+  }
+}
+
+class _CountPill extends StatelessWidget {
+  const _CountPill({required this.label});
+
+  final String label;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+      decoration: BoxDecoration(
+        color: const Color(0xFFE6FFFB),
+        borderRadius: BorderRadius.circular(999),
+        border: Border.all(color: const Color(0xFF99F6E4)),
+      ),
+      child: Text(
+        label,
+        style: const TextStyle(
+          color: Color(0xFF0F766E),
+          fontWeight: FontWeight.w800,
+        ),
       ),
     );
   }

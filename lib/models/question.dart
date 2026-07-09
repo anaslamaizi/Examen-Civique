@@ -17,6 +17,26 @@ class Question {
   final String explanation;
   final bool draft;
 
+  Question copyWith({
+    String? id,
+    String? section,
+    String? question,
+    Map<String, String>? options,
+    String? correctAnswer,
+    String? explanation,
+    bool? draft,
+  }) {
+    return Question(
+      id: id ?? this.id,
+      section: section ?? this.section,
+      question: question ?? this.question,
+      options: options ?? this.options,
+      correctAnswer: correctAnswer ?? this.correctAnswer,
+      explanation: explanation ?? this.explanation,
+      draft: draft ?? this.draft,
+    );
+  }
+
   factory Question.fromJson(Map<String, dynamic> json) {
     return Question(
       id: json['id'] as String,

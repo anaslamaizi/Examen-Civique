@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 
 import '../../app/app_state.dart';
 import '../../models/quiz_models.dart';
+import '../../widgets/ad_banner_widget.dart';
 import '../quiz/quiz_screen.dart';
 
 class ThemeSelectionScreen extends StatelessWidget {
@@ -16,7 +17,7 @@ class ThemeSelectionScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('Réviser par thème')),
       body: ListView.separated(
-        padding: const EdgeInsets.fromLTRB(16, 12, 16, 24),
+        padding: const EdgeInsets.fromLTRB(16, 12, 16, 36),
         itemCount: sections.length,
         separatorBuilder: (_, __) => const SizedBox(height: 10),
         itemBuilder: (context, index) {
@@ -60,6 +61,7 @@ class ThemeSelectionScreen extends StatelessWidget {
           );
         },
       ),
+      bottomNavigationBar: const AdBannerWidget(),
     );
   }
 }

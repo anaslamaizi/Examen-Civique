@@ -10,8 +10,9 @@ plugins {
 
 val keyProperties = Properties()
 val keyPropertiesFile = rootProject.file("key.properties")
+val hasReleaseSigning = keyPropertiesFile.exists()
 
-if (keyPropertiesFile.exists()) {
+if (hasReleaseSigning) {
     keyProperties.load(FileInputStream(keyPropertiesFile))
 }
 
@@ -30,10 +31,7 @@ android {
     }
 
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId = "fr.examenciviquefr.app"
-        // You can update the following values to match your application needs.
-        // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
@@ -41,8 +39,8 @@ android {
     }
 
     signingConfigs {
-        create("release") {
-            if (keyPropertiesFile.exists()) {
+        if (hasReleaseSigning) {
+            create("release") {
                 keyAlias = keyProperties["keyAlias"] as String
                 keyPassword = keyProperties["keyPassword"] as String
                 storeFile = rootProject.file(keyProperties["storeFile"] as String)
@@ -53,7 +51,10 @@ android {
 
     buildTypes {
         release {
-            signingConfig = signingConfigs.getByName("release")
+            // TODO: keep android/key.properties local and configure a production keystore for Play release builds.
+            if (hasReleaseSigning) {
+                signingConfig = signingConfigs.getByName("release")
+            }
         }
     }
 }
