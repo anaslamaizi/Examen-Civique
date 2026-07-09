@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 
 import '../../app/app_state.dart';
 import '../mistakes/mistakes_screen.dart';
+import '../premium/paywall_screen.dart';
 
 class ResultsScreen extends StatelessWidget {
   const ResultsScreen({super.key});
@@ -41,9 +42,16 @@ class ResultsScreen extends StatelessWidget {
               onPressed: () => Navigator.pop(context),
               child: const Text('Refaire'),
             ),
-            OutlinedButton(
-              onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const MistakesScreen())),
-              child: const Text('Revoir mes erreurs'),
+            OutlinedButton.icon(
+              onPressed: () {
+                if (!state.isPremium) {
+                  Navigator.push(context, MaterialPageRoute(builder: (_) => const PaywallScreen()));
+                  return;
+                }
+                Navigator.push(context, MaterialPageRoute(builder: (_) => const MistakesScreen()));
+              },
+              icon: Icon(state.isPremium ? Icons.history_rounded : Icons.lock_rounded),
+              label: Text(state.isPremium ? 'Revoir mes erreurs' : 'Revoir mes erreurs • Premium'),
             ),
             OutlinedButton(
               onPressed: () => Navigator.popUntil(context, (route) => route.isFirst),
