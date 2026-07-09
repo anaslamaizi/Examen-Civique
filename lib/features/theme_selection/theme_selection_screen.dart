@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 
 import '../../app/app_state.dart';
 import '../../models/quiz_models.dart';
+import '../premium/paywall_screen.dart';
 import '../quiz/quiz_screen.dart';
 
 class ThemeSelectionScreen extends StatelessWidget {
@@ -11,7 +12,7 @@ class ThemeSelectionScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final state = context.watch<AppState>();
-    final sections = state.allQuestions.map((q) => q.section).toSet().toList()..sort();
+    final sections = state.sections;
 
     return Scaffold(
       appBar: AppBar(title: const Text('Réviser par thème')),
@@ -24,6 +25,7 @@ class ThemeSelectionScreen extends StatelessWidget {
           final count = state.allQuestions.where((q) => q.section == section).length;
           final icon = _iconForSection(section);
           final tint = _colorForIndex(index);
+          final locked = !state.isPremium && state.isPremiumSection(section);
 
           return Card(
             child: ListTile(
@@ -35,25 +37,47 @@ class ThemeSelectionScreen extends StatelessWidget {
                   color: tint.withValues(alpha: 0.12),
                   borderRadius: BorderRadius.circular(14),
                 ),
-                child: Icon(icon, color: tint),
+                child: Icon(locked ? Icons.lock_rounded : icon, color: tint),
               ),
-              title: Text(
-                section,
-                style: const TextStyle(
-                  fontWeight: FontWeight.w700,
-                  color: Color(0xFF0F172A),
-                ),
+              title: Row(
+                children: [
+                  Expanded(
+                    child: Text(
+                      section,
+                      style: const TextStyle(
+                        fontWeight: FontWeight.w800,
+                        color: Color(0xFF0F172A),
+                      ),
+                    ),
+                  ),
+                  if (locked)
+                    Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                      decoration: BoxDecoration(
+                        color: const Color(0xFFFFF7ED),
+                        borderRadius: BorderRadius.circular(999),
+                      ),
+                      child: const Text(
+                        'Premium',
+                        style: TextStyle(fontSize: 11, fontWeight: FontWeight.w900, color: Color(0xFFC2410C)),
+                      ),
+                    ),
+                ],
               ),
               subtitle: Padding(
                 padding: const EdgeInsets.only(top: 4),
                 child: Text(
-                  '$count questions',
+                  locked ? '$count questions • débloqué avec Premium' : '$count questions',
                   style: const TextStyle(color: Color(0xFF475569)),
                 ),
               ),
-              trailing: Icon(Icons.chevron_right_rounded, color: tint),
+              trailing: Icon(Icons.chevron_right_rounded, color: locked ? const Color(0xFFC2410C) : tint),
               onTap: () {
-                state.startQuiz(section: section, mode: QuizMode.instant);
+                final started = context.read<AppState>().startQuiz(section: section, mode: QuizMode.instant);
+                if (!started) {
+                  Navigator.push(context, MaterialPageRoute(builder: (_) => const PaywallScreen()));
+                  return;
+                }
                 Navigator.push(context, MaterialPageRoute(builder: (_) => const QuizScreen()));
               },
             ),
