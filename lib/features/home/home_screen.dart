@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../../app/app_state.dart';
+import '../../features/account/account_screen.dart';
 import '../../features/mistakes/mistakes_screen.dart';
+import '../../features/premium/paywall_screen.dart';
 import '../../features/quiz/quiz_screen.dart';
 import '../../features/revision/revision_screen.dart';
 import '../../features/theme_selection/theme_selection_screen.dart';
@@ -10,150 +12,133 @@ import '../../models/quiz_models.dart';
 
 const _appLogoAsset = 'assets/icon.png';
 
-class HomeScreen extends StatefulWidget {
+class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
-
-  @override
-  State<HomeScreen> createState() => _HomeScreenState();
-}
-
-class _HomeScreenState extends State<HomeScreen> {
-  var _visible = false;
-
-  @override
-  void initState() {
-    super.initState();
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      if (mounted) {
-        setState(() {
-          _visible = true;
-        });
-      }
-    });
-  }
 
   @override
   Widget build(BuildContext context) {
     final state = context.watch<AppState>();
-    final theme = Theme.of(context);
 
     return Scaffold(
       appBar: AppBar(
         title: const Text('Examen Civique FR'),
-        centerTitle: false,
-        actions: const [
-          Padding(
+        actions: [
+          IconButton(
+            tooltip: 'Mon compte',
+            onPressed: () => Navigator.push(
+              context,
+              MaterialPageRoute(builder: (_) => const AccountScreen()),
+            ),
+            icon: const Icon(Icons.account_circle_rounded),
+          ),
+          const Padding(
             padding: EdgeInsets.only(right: 16),
             child: _AppMark(size: 34),
           ),
         ],
       ),
       body: SafeArea(
-        child: SingleChildScrollView(
+        child: ListView(
           padding: const EdgeInsets.fromLTRB(20, 12, 20, 28),
-          child: AnimatedOpacity(
-            duration: const Duration(milliseconds: 500),
-            curve: Curves.easeOut,
-            opacity: _visible ? 1 : 0,
-            child: AnimatedSlide(
-              duration: const Duration(milliseconds: 500),
-              curve: Curves.easeOutCubic,
-              offset: _visible ? Offset.zero : const Offset(0, 0.04),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: [
-                  _HeroCard(questionCount: state.allQuestions.length),
-                  const SizedBox(height: 18),
-                  _InfoCard(questionCount: state.allQuestions.length),
-                  const SizedBox(height: 22),
-                  _PrimaryActionButton(
-                    label: 'Commencer',
-                    icon: Icons.rocket_launch_rounded,
-                    onPressed: () {
-                      state.startQuiz(mode: QuizMode.instant);
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (_) => const QuizScreen()),
-                      );
-                    },
-                  ),
-                  const SizedBox(height: 12),
-                  _SecondaryActionButton(
-                    label: 'Réviser par thème',
-                    icon: Icons.category_rounded,
-                    tint: theme.colorScheme.primary,
-                    onPressed: () => Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (_) => const ThemeSelectionScreen()),
-                    ),
-                  ),
-                  const SizedBox(height: 12),
-                  _SecondaryActionButton(
-                    label: 'Test complet',
-                    icon: Icons.fact_check_rounded,
-                    tint: const Color(0xFF0F766E),
-                    onPressed: () {
-                      state.startQuiz(mode: QuizMode.finalCorrection, full: true);
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (_) => const QuizScreen()),
-                      );
-                    },
-                  ),
-                  const SizedBox(height: 12),
-                  _SecondaryActionButton(
-                    label: 'Flashcards',
-                    icon: Icons.auto_stories_rounded,
-                    tint: const Color(0xFF7C3AED),
-                    onPressed: () => Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (_) => const RevisionScreen()),
-                    ),
-                  ),
-                  const SizedBox(height: 12),
-                  _SecondaryActionButton(
-                    label: 'Erreurs & favoris',
-                    icon: Icons.bookmark_rounded,
-                    trailing: const _DualStatusIcon(),
-                    tint: const Color(0xFFC2410C),
-                    onPressed: () => Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (_) => const MistakesScreen()),
-                    ),
-                  ),
-                  const SizedBox(height: 18),
-                  Container(
-                    padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(20),
-                      border: Border.all(color: const Color(0xFFD7E3F4)),
-                    ),
-                    child: Row(
-                      children: [
-                        Icon(
-                          Icons.workspace_premium_rounded,
-                          color: theme.colorScheme.primary,
-                        ),
-                        const SizedBox(width: 10),
-                        Expanded(
-                          child: Text(
-                            'Mode sérieux, offline et rapide. Idéal pour des captures Play Store propres et rassurantes.',
-                            style: theme.textTheme.bodyMedium?.copyWith(
-                              color: const Color(0xFF334155),
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ],
+          children: [
+            _HeroCard(questionCount: state.allQuestions.length),
+            const SizedBox(height: 16),
+            _PremiumSummaryCard(state: state),
+            const SizedBox(height: 18),
+            _ActionTile(
+              label: 'Quiz aléatoire',
+              subtitle: state.isPremium ? 'Quiz illimités de tous les thèmes' : '${state.remainingFreeQuizzes} quiz gratuit restant aujourd’hui',
+              icon: Icons.psychology_rounded,
+              tint: const Color(0xFF1D4ED8),
+              onTap: () => _startQuiz(context),
+            ),
+            const SizedBox(height: 12),
+            _ActionTile(
+              label: 'Créer mon quiz',
+              subtitle: 'Choisir thème, difficulté et nombre de questions',
+              icon: Icons.tune_rounded,
+              tint: const Color(0xFF7C3AED),
+              premium: !state.isPremium,
+              onTap: () => _premiumOr(context, premiumOnly: true, action: () {
+                Navigator.push(context, MaterialPageRoute(builder: (_) => const ThemeSelectionScreen()));
+              }),
+            ),
+            const SizedBox(height: 12),
+            _ActionTile(
+              label: 'Réviser par thème',
+              subtitle: 'Thèmes gratuits + thèmes Premium verrouillés',
+              icon: Icons.category_rounded,
+              tint: const Color(0xFF0F766E),
+              onTap: () => Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const ThemeSelectionScreen()),
               ),
             ),
-          ),
+            const SizedBox(height: 12),
+            _ActionTile(
+              label: 'Fiches de révision',
+              subtitle: 'Recherche, filtres, favoris et fiches détaillées',
+              icon: Icons.menu_book_rounded,
+              tint: const Color(0xFF2563EB),
+              onTap: () => Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const RevisionScreen()),
+              ),
+            ),
+            const SizedBox(height: 12),
+            _ActionTile(
+              label: 'Examens blancs',
+              subtitle: 'Mode complet avec correction finale',
+              icon: Icons.fact_check_rounded,
+              tint: const Color(0xFFC2410C),
+              premium: !state.isPremium,
+              onTap: () => _premiumOr(context, premiumOnly: true, action: () {
+                _startQuiz(context, full: true, mode: QuizMode.finalCorrection, premiumOnly: true);
+              }),
+            ),
+            const SizedBox(height: 12),
+            _ActionTile(
+              label: 'Revoir mes erreurs',
+              subtitle: 'Questions ratées et favoris',
+              icon: Icons.history_rounded,
+              tint: const Color(0xFFDC2626),
+              premium: !state.isPremium,
+              onTap: () => _premiumOr(context, premiumOnly: true, action: () {
+                Navigator.push(context, MaterialPageRoute(builder: (_) => const MistakesScreen()));
+              }),
+            ),
+          ],
         ),
       ),
     );
+  }
+
+  void _startQuiz(
+    BuildContext context, {
+    QuizMode mode = QuizMode.instant,
+    bool full = false,
+    bool premiumOnly = false,
+  }) {
+    final state = context.read<AppState>();
+    final started = state.startQuiz(mode: mode, full: full, premiumOnly: premiumOnly);
+    if (!started) {
+      _openPaywall(context);
+      return;
+    }
+    Navigator.push(context, MaterialPageRoute(builder: (_) => const QuizScreen()));
+  }
+
+  void _premiumOr(BuildContext context, {required bool premiumOnly, required VoidCallback action}) {
+    final state = context.read<AppState>();
+    if (premiumOnly && !state.isPremium) {
+      _openPaywall(context);
+      return;
+    }
+    action();
+  }
+
+  void _openPaywall(BuildContext context) {
+    Navigator.push(context, MaterialPageRoute(builder: (_) => const PaywallScreen()));
   }
 }
 
@@ -167,13 +152,14 @@ class _HeroCard extends StatelessWidget {
     final theme = Theme.of(context);
 
     return Container(
+      padding: const EdgeInsets.all(22),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(28),
         gradient: const LinearGradient(
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
           colors: [Color(0xFF0F3D91), Color(0xFF1D4ED8), Color(0xFFF7FAFF)],
-          stops: [0, 0.58, 1],
+          stops: [0, 0.62, 1],
         ),
         boxShadow: const [
           BoxShadow(
@@ -183,143 +169,41 @@ class _HeroCard extends StatelessWidget {
           ),
         ],
       ),
-      child: Stack(
-        children: [
-          const Positioned(top: 22, right: 28, child: _FrenchCockade()),
-          Positioned(
-            left: -16,
-            bottom: -26,
-            child: Container(
-              width: 116,
-              height: 116,
-              decoration: BoxDecoration(
-                color: Colors.white.withValues(alpha: 0.09),
-                shape: BoxShape.circle,
-              ),
-            ),
-          ),
-          Padding(
-            padding: const EdgeInsets.fromLTRB(22, 22, 22, 22),
-            child: Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                const _AppMark(size: 64),
-                const SizedBox(width: 16),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        'Examen Civique FR',
-                        style: theme.textTheme.headlineSmall?.copyWith(
-                          color: Colors.white,
-                          fontWeight: FontWeight.w800,
-                          letterSpacing: -0.3,
-                        ),
-                      ),
-                      const SizedBox(height: 8),
-                      Text(
-                        'Révisez avec une expérience claire, mobile-first et pensée pour réussir sereinement.',
-                        style: theme.textTheme.bodyLarge?.copyWith(
-                          color: Colors.white.withValues(alpha: 0.9),
-                          height: 1.35,
-                        ),
-                      ),
-                      const SizedBox(height: 14),
-                      Wrap(
-                        spacing: 8,
-                        runSpacing: 8,
-                        children: [
-                          const _HeroChip(
-                            icon: Icons.shield_rounded,
-                            label: 'Sérieux',
-                          ),
-                          _HeroChip(
-                            icon: Icons.menu_book_rounded,
-                            label: '$questionCount questions',
-                          ),
-                          const _HeroChip(
-                            icon: Icons.check_circle_rounded,
-                            label: 'Prêt à réviser',
-                          ),
-                        ],
-                      ),
-                    ],
-                  ),
-                ),
-              ],
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-class _InfoCard extends StatelessWidget {
-  const _InfoCard({required this.questionCount});
-
-  final int questionCount;
-
-  @override
-  Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-
-    return Container(
-      padding: const EdgeInsets.all(18),
-      decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(24),
-        border: Border.all(color: const Color(0xFFD9E3F2)),
-        boxShadow: const [
-          BoxShadow(
-            color: Color(0x0A0F172A),
-            blurRadius: 18,
-            offset: Offset(0, 10),
-          ),
-        ],
-      ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            'Préparation rapide',
-            style: theme.textTheme.titleMedium?.copyWith(
-              fontWeight: FontWeight.w800,
-              color: const Color(0xFF0F172A),
-            ),
+          Row(
+            children: [
+              const _AppMark(size: 58),
+              const SizedBox(width: 14),
+              Expanded(
+                child: Text(
+                  'Préparez votre examen civique',
+                  style: theme.textTheme.headlineSmall?.copyWith(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w900,
+                    height: 1.06,
+                  ),
+                ),
+              ),
+            ],
           ),
-          const SizedBox(height: 6),
+          const SizedBox(height: 14),
           Text(
-            'Tout l’essentiel pour vous entraîner efficacement, même sans connexion.',
-            style: theme.textTheme.bodyMedium?.copyWith(
-              color: const Color(0xFF475569),
+            'Quiz, QCM, fiches et examens blancs. Gratuit pour commencer, Premium pour accélérer.',
+            style: theme.textTheme.bodyLarge?.copyWith(
+              color: Colors.white.withValues(alpha: 0.9),
               height: 1.35,
             ),
           ),
-          const SizedBox(height: 16),
+          const SizedBox(height: 14),
           Wrap(
-            spacing: 10,
-            runSpacing: 10,
+            spacing: 8,
+            runSpacing: 8,
             children: [
-              _InfoBadge(
-                icon: Icons.quiz_rounded,
-                label: '$questionCount questions',
-                color: const Color(0xFFE8F0FF),
-                iconColor: const Color(0xFF1D4ED8),
-              ),
-              const _InfoBadge(
-                icon: Icons.cloud_off_rounded,
-                label: 'Offline',
-                color: Color(0xFFF1F5F9),
-                iconColor: Color(0xFF334155),
-              ),
-              const _InfoBadge(
-                icon: Icons.bolt_rounded,
-                label: 'Correction instantanée ou finale',
-                color: Color(0xFFFFE9E7),
-                iconColor: Color(0xFFDC2626),
-              ),
+              _HeroChip(icon: Icons.quiz_rounded, label: '$questionCount questions'),
+              const _HeroChip(icon: Icons.cloud_off_rounded, label: 'Offline'),
+              const _HeroChip(icon: Icons.workspace_premium_rounded, label: 'Premium prêt'),
             ],
           ),
         ],
@@ -328,128 +212,124 @@ class _InfoCard extends StatelessWidget {
   }
 }
 
-class _PrimaryActionButton extends StatelessWidget {
-  const _PrimaryActionButton({
-    required this.label,
-    required this.icon,
-    required this.onPressed,
-  });
+class _PremiumSummaryCard extends StatelessWidget {
+  const _PremiumSummaryCard({required this.state});
 
-  final String label;
-  final IconData icon;
-  final VoidCallback onPressed;
+  final AppState state;
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      height: 58,
-      child: FilledButton.icon(
-        onPressed: onPressed,
-        icon: Icon(icon, size: 22),
-        label: Text(label),
+    final isPremium = state.isPremium;
+
+    return Container(
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(22),
+        border: Border.all(color: const Color(0xFFD9E3F2)),
+      ),
+      child: Row(
+        children: [
+          Container(
+            width: 46,
+            height: 46,
+            decoration: BoxDecoration(
+              color: isPremium ? const Color(0xFFDCFCE7) : const Color(0xFFE8F0FF),
+              borderRadius: BorderRadius.circular(16),
+            ),
+            child: Icon(
+              isPremium ? Icons.verified_rounded : Icons.lock_open_rounded,
+              color: isPremium ? const Color(0xFF15803D) : const Color(0xFF1D4ED8),
+            ),
+          ),
+          const SizedBox(width: 12),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  isPremium ? 'Premium actif' : 'Mode gratuit',
+                  style: const TextStyle(fontWeight: FontWeight.w900, fontSize: 17, color: Color(0xFF0F172A)),
+                ),
+                const SizedBox(height: 4),
+                Text(
+                  isPremium ? 'Tous les thèmes et quiz illimités.' : '${state.dailyQuizLabel} • ${state.freeSections.length} thèmes gratuits',
+                  style: const TextStyle(color: Color(0xFF475569), fontWeight: FontWeight.w600),
+                ),
+              ],
+            ),
+          ),
+          if (!isPremium)
+            TextButton(
+              onPressed: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const PaywallScreen())),
+              child: const Text('Premium'),
+            ),
+        ],
       ),
     );
   }
 }
 
-class _SecondaryActionButton extends StatelessWidget {
-  const _SecondaryActionButton({
+class _ActionTile extends StatelessWidget {
+  const _ActionTile({
     required this.label,
+    required this.subtitle,
     required this.icon,
-    required this.onPressed,
     required this.tint,
-    this.trailing,
+    required this.onTap,
+    this.premium = false,
   });
 
   final String label;
+  final String subtitle;
   final IconData icon;
-  final Widget? trailing;
   final Color tint;
-  final VoidCallback onPressed;
+  final VoidCallback onTap;
+  final bool premium;
 
   @override
   Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-
-    return SizedBox(
-      height: 64,
-      child: OutlinedButton(
-        onPressed: onPressed,
-        style: OutlinedButton.styleFrom(
-          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
-          side: BorderSide(color: tint.withValues(alpha: 0.18)),
-          backgroundColor: Colors.white,
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(22)),
+    return Card(
+      child: ListTile(
+        contentPadding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+        leading: Container(
+          width: 48,
+          height: 48,
+          decoration: BoxDecoration(
+            color: tint.withValues(alpha: 0.11),
+            borderRadius: BorderRadius.circular(16),
+          ),
+          child: Icon(icon, color: tint),
         ),
-        child: Row(
+        title: Row(
           children: [
-            Container(
-              width: 40,
-              height: 40,
-              decoration: BoxDecoration(
-                color: tint.withValues(alpha: 0.1),
-                borderRadius: BorderRadius.circular(14),
-              ),
-              child: Icon(icon, color: tint),
-            ),
-            const SizedBox(width: 14),
             Expanded(
               child: Text(
                 label,
-                style: theme.textTheme.titleMedium?.copyWith(
-                  fontWeight: FontWeight.w700,
-                  color: const Color(0xFF0F172A),
-                ),
+                style: const TextStyle(fontWeight: FontWeight.w900, color: Color(0xFF0F172A)),
               ),
             ),
-            trailing ??
-                Icon(
-                  Icons.arrow_forward_ios_rounded,
-                  size: 18,
-                  color: tint,
+            if (premium)
+              Container(
+                padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                decoration: BoxDecoration(color: const Color(0xFFFFF7ED), borderRadius: BorderRadius.circular(999)),
+                child: const Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Icon(Icons.lock_rounded, size: 13, color: Color(0xFFC2410C)),
+                    SizedBox(width: 3),
+                    Text('Premium', style: TextStyle(fontSize: 11, fontWeight: FontWeight.w900, color: Color(0xFFC2410C))),
+                  ],
                 ),
+              ),
           ],
         ),
-      ),
-    );
-  }
-}
-
-class _InfoBadge extends StatelessWidget {
-  const _InfoBadge({
-    required this.icon,
-    required this.label,
-    required this.color,
-    required this.iconColor,
-  });
-
-  final IconData icon;
-  final String label;
-  final Color color;
-  final Color iconColor;
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      constraints: const BoxConstraints(maxWidth: 320),
-      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
-      decoration: BoxDecoration(
-        color: color,
-        borderRadius: BorderRadius.circular(16),
-      ),
-      child: Row(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Icon(icon, size: 18, color: iconColor),
-          const SizedBox(width: 8),
-          Text(
-            label,
-            style: const TextStyle(
-              color: Color(0xFF0F172A),
-              fontWeight: FontWeight.w600,
-            ),
-          ),
-        ],
+        subtitle: Padding(
+          padding: const EdgeInsets.only(top: 4),
+          child: Text(subtitle, style: const TextStyle(color: Color(0xFF64748B))),
+        ),
+        trailing: Icon(Icons.chevron_right_rounded, color: premium ? const Color(0xFFC2410C) : tint),
+        onTap: onTap,
       ),
     );
   }
@@ -464,7 +344,7 @@ class _HeroChip extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
       decoration: BoxDecoration(
         color: Colors.white.withValues(alpha: 0.14),
         borderRadius: BorderRadius.circular(999),
@@ -473,15 +353,9 @@ class _HeroChip extends StatelessWidget {
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Icon(icon, color: Colors.white, size: 16),
-          const SizedBox(width: 8),
-          Text(
-            label,
-            style: const TextStyle(
-              color: Colors.white,
-              fontWeight: FontWeight.w700,
-            ),
-          ),
+          Icon(icon, size: 16, color: Colors.white),
+          const SizedBox(width: 6),
+          Text(label, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w800)),
         ],
       ),
     );
@@ -495,116 +369,22 @@ class _AppMark extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final radius = BorderRadius.circular(size * 0.28);
-
-    return Container(
-      width: size,
-      height: size,
-      decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: radius,
-        border: Border.all(color: Colors.white.withValues(alpha: 0.35)),
-        boxShadow: const [
-          BoxShadow(
-            color: Color(0x1F0F3D91),
-            blurRadius: 16,
-            offset: Offset(0, 8),
-          ),
-        ],
-      ),
-      clipBehavior: Clip.antiAlias,
+    return ClipRRect(
+      borderRadius: BorderRadius.circular(size * 0.24),
       child: Image.asset(
         _appLogoAsset,
+        width: size,
+        height: size,
         fit: BoxFit.cover,
-        filterQuality: FilterQuality.high,
-      ),
-    );
-  }
-}
-
-class _DualStatusIcon extends StatelessWidget {
-  const _DualStatusIcon();
-
-  @override
-  Widget build(BuildContext context) {
-    return const SizedBox(
-      width: 42,
-      child: Stack(
-        clipBehavior: Clip.none,
-        children: [
-          Positioned(
-            left: 0,
-            top: 6,
-            child: Icon(
-              Icons.error_outline_rounded,
-              size: 20,
-              color: Color(0xFFEA580C),
-            ),
+        errorBuilder: (_, __, ___) => Container(
+          width: size,
+          height: size,
+          decoration: BoxDecoration(
+            color: const Color(0xFF0F3D91),
+            borderRadius: BorderRadius.circular(size * 0.24),
           ),
-          Positioned(
-            right: 0,
-            child: Icon(
-              Icons.favorite_rounded,
-              size: 20,
-              color: Color(0xFFDC2626),
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-class _FrenchCockade extends StatelessWidget {
-  const _FrenchCockade();
-
-  @override
-  Widget build(BuildContext context) {
-    return SizedBox(
-      width: 52,
-      height: 52,
-      child: Stack(
-        alignment: Alignment.center,
-        children: [
-          Container(
-            width: 52,
-            height: 52,
-            decoration: BoxDecoration(
-              shape: BoxShape.circle,
-              border: Border.all(
-                color: Colors.white.withValues(alpha: 0.18),
-              ),
-            ),
-          ),
-          Container(
-            width: 38,
-            height: 38,
-            decoration: const BoxDecoration(
-              shape: BoxShape.circle,
-              gradient: SweepGradient(
-                colors: [
-                  Color(0xFF1D4ED8),
-                  Color(0xFFF8FAFC),
-                  Color(0xFFDC2626),
-                  Color(0xFF1D4ED8),
-                ],
-              ),
-            ),
-          ),
-          Container(
-            width: 16,
-            height: 16,
-            decoration: const BoxDecoration(
-              color: Color(0xFF0F3D91),
-              shape: BoxShape.circle,
-            ),
-            child: const Icon(
-              Icons.star_rounded,
-              size: 12,
-              color: Colors.white,
-            ),
-          ),
-        ],
+          child: Icon(Icons.menu_book_rounded, color: Colors.white, size: size * 0.5),
+        ),
       ),
     );
   }
